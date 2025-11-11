@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc991afb30521464098e9593c01db0eb, type: 3}
+  m_Name: AdamMalysz
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  question: "Na kt\xF3rych Mistrzostwach \u015Awiata Adam Ma\u0142ysz zdoby\u0142
+    sw\xF3j pierwszy z\u0142oty medal?"
+  answers:
+  - Lahti 2001
+  - Predazzo 2003
+  - Sapporo 2007
+  - Oslo 2011
+  correctAnswerIndex: 0

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc991afb30521464098e9593c01db0eb, type: 3}
+  m_Name: ZlotaPilka
+  m_EditorClassIdentifier: Assembly-CSharp::QuestionData
+  question: "Kto zdoby\u0142 Z\u0142ot\u0105 Pi\u0142k\u0119 w 2023 roku?"
+  answers:
+  - Lionel Messi
+  - "Kylian Mbapp\xE9"
+  - Erling Haaland
+  - Karim Benzema
+  correctAnswerIndex: 0
