@@ -38,7 +38,7 @@ public class QuizManager : MonoBehaviour
     {
         // Odliczanie czasu
         timer -= Time.deltaTime;
-        timerSlider.value = timer / timePerQuestion;
+        timerSlider.value = timer;// / timePerQuestion;
 
         // Jezeli czas sie skonczyl, przechodzimy dalej
         if (timer <= 0f)
