@@ -545,12 +545,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ResultManager
   resultText: {fileID: 1748276634}
-  squares:
+  stars:
   - {fileID: 482984089}
   - {fileID: 1124279158}
   - {fileID: 1199856316}
-  activeColor: {r: 0, g: 1, b: 0, a: 1}
-  inactiveColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+  grayStar: {fileID: 3286163911610860551, guid: d7d5ce68d9b4cb34493a9e11054abc2f, type: 3}
+  goldStar: {fileID: 3286163911610860551, guid: 5155e1b77c8ceb74f9a1d999936185a6, type: 3}
 --- !u!1 &482984087
 GameObject:
   m_ObjectHideFlags: 0
@@ -1271,7 +1271,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 63.8
   m_fontSizeBase: 29
   m_fontWeight: 400
   m_enableAutoSizing: 1

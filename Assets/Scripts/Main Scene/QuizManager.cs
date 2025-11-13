@@ -61,7 +61,8 @@ public class QuizManager : MonoBehaviour
         // Jezeli nie ma wiecej pytan, przechodzimy do ekranu wynikow
         if (currentQuestionIndex >= quizQuestions.Count)
         {
-            PlayerPrefs.SetInt("CorrectAnswers", correctAnswers);
+            PlayerPrefs.SetInt("Score", correctAnswers);  
+            PlayerPrefs.Save();
             SceneManager.LoadScene("ResultsScene");
             return;
         }

@@ -1,29 +1,43 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using TMPro;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class ResultManager : MonoBehaviour
 {
     public TMP_Text resultText; // Tekst z wynikiem
-    public Image[] squares; // 3 kwadraty (obrazy)
-    public Color activeColor = Color.green; // Kolor aktywny 
-    public Color inactiveColor = Color.yellow; // Kolor nieaktywny 
+    public Image[] stars; // 3 gwiazdki
+    public Sprite grayStar; // Szara gwiazdka
+    public Sprite goldStar; // Zlota gwiazdka
 
     void Start()
     {
         // Pobieramy wynik z PlayerPrefs
-        int correct = PlayerPrefs.GetInt("CorrectAnswers", 0);
-        resultText.text = $"{correct}/21";
+        int score = PlayerPrefs.GetInt("Score", 0);
+        resultText.text = "Twoj wynik: " + score + "/21";
 
-        // Reset kolorow
-        for (int i = 0; i < squares.Length; i++)
-            squares[i].color = inactiveColor;
+        UpdateStars(score);
+    }
 
-        // Podswietlamy odpowiednie kwadraty w zaleznosci od wyniku
-        if (correct >= 7) squares[0].color = activeColor;
-        if (correct >= 14) squares[1].color = activeColor;
-        if (correct >= 21) squares[2].color = activeColor;
+    // Ustawienia spritow gwiazdek
+    private void UpdateStars(int score) 
+    {
+        // Na poczatek szare
+        for (int i = 0; i < stars.Length; i++)
+        {
+            stars[i].sprite = grayStar;
+        }
+
+        // Logika ile gwiazdek ma byc zlote
+        if (score >= 7)
+            stars[0].sprite = goldStar;
+
+        if (score >= 14)
+            stars[1].sprite = goldStar;
+
+        if (score >= 21)
+            stars[2].sprite = goldStar;
     }
 
     // Uruchamia nowa gre
