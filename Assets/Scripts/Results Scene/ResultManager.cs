@@ -15,7 +15,7 @@ public class ResultManager : MonoBehaviour
     {
         // Pobieramy wynik z PlayerPrefs
         int score = PlayerPrefs.GetInt("Score", 0);
-        resultText.text = "Twoj wynik: " + score + "/21";
+        resultText.text = score + "/21";
 
         UpdateStars(score);
     }
