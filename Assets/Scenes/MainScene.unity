@@ -638,6 +638,16 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c7ab332b95df20744bf6a9fb4e72544f, type: 2}
   - {fileID: 11400000, guid: b2fd94f60f67d344b98001fc6cfeb5d4, type: 2}
   - {fileID: 11400000, guid: b1c89ea6c37910440b6d2f2157400ce8, type: 2}
+  - {fileID: 11400000, guid: bcede005b8da45a41b865671ab3c791d, type: 2}
+  - {fileID: 11400000, guid: f093a6e89912d3d4e894f3ffc02a929e, type: 2}
+  - {fileID: 11400000, guid: 722f399fb7cbc5942906dbb528b62598, type: 2}
+  - {fileID: 11400000, guid: 7a6550eee4050cc40b1417a11e4a401a, type: 2}
+  - {fileID: 11400000, guid: 13f74a3389fc25e4bb9a8b085fd8aaef, type: 2}
+  - {fileID: 11400000, guid: be4c0022335463d49a44c5b89197a696, type: 2}
+  - {fileID: 11400000, guid: 4bae13812d259f0438a33b6d985c185e, type: 2}
+  - {fileID: 11400000, guid: 1b6ea1c79d25d614eb158a9c1c4ca626, type: 2}
+  - {fileID: 11400000, guid: 4dceccb85be30d143858961163c3e2b3, type: 2}
+  - {fileID: 11400000, guid: ee99c6b930620604591036932b75976f, type: 2}
   questionText: {fileID: 424424784}
   answerButtons:
   - {fileID: 1542539356}
@@ -1091,7 +1101,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56.2
+  m_fontSize: 48.1
   m_fontSizeBase: 21
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2509,7 +2519,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 65.3
   m_fontSizeBase: 15
   m_fontWeight: 400
   m_enableAutoSizing: 1
